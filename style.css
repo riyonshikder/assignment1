@@ -11,14 +11,7 @@
     padding: 200px 0;
     
 }
-.decoration::after{
-    content: "";
-    position: absolute; height: 100%; width: 100%;
-    top: 0; left: 0;
-    background-color: #000;
-    opacity: 0.5;
-    z-index: 10;
-}
+
 
 .seconddecoration {
     background-image:linear-gradient(90deg,#070211, rgba(7, 2, 17, 0.00)),url(/resources/Vectorrr.png);
@@ -32,8 +25,8 @@
     
 }
 
-.thirddecoration {
-
+.thirddecoration { 
+ display: flex;
 
 }
 
@@ -48,10 +41,6 @@ background-color: rgba(255, 0, 0, 0.05);
             position: relative; z-index: 500;
 }
 
-.products {
-
-
-}
 
 .discount {
 
